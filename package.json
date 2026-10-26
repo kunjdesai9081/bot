@@ -1,0 +1,25 @@
+{
+  "name": "ai-social-support-agent",
+  "version": "1.0.0",
+  "description": "Autonomous Social AI Agent with Google ADK, Real-Time Alerting, and Human-in-the-Loop Confirmation on Vercel Serverless",
+  "main": "api/webhook.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@google/genai": "^2.31.0",
+    "@google/generative-ai": "^0.24.1",
+    "@supabase/supabase-js": "^2.48.1",
+    "@vercel/node": "^27.0.2",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
